@@ -103,6 +103,43 @@ npm run dev:all
 |-----------------|-----------|------------------|
 | ![Correction Dashboard](./screenshot/customer-correction.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/faireness-monitor.png) |
 
+## 👥 Contributors
+
+Thanks to these amazing people who have contributed to this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/thekhushalsingh">
+        <img src="https://avatars.githubusercontent.com/khushalsingh" width="100px;" alt="Khushal Singh"/>
+        <br />
+        <sub><b>Khushal Singh</b></sub>
+      </a>
+      <br />
+      <sub>🚀 Project Lead & Full-Stack Developer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/your-contributor">
+        <img src="https://avatars.githubusercontent.com/your-contributor" width="100px;" alt="Contributor Name"/>
+        <br />
+        <sub><b>Contributor Name</b></sub>
+      </a>
+      <br />
+      <sub>💻 Backend Developer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/another-contributor">
+        <img src="https://avatars.githubusercontent.com/another-contributor" width="100px;" alt="Another Contributor"/>
+        <br />
+        <sub><b>Another Contributor</b></sub>
+      </a>
+      <br />
+      <sub>🎨 UI/UX Designer</sub>
+    </td>
+  </tr>
+</table>
+
+
 # Project Contribution
 ### ![Khushal Singh]()
 ### ![Kumar Saurav]() 
