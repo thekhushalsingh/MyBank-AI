@@ -1,0 +1,84 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String              @id @default(uuid())
+  email              String             @unique
+  password           String
+  createdAt          DateTime            @default(now())
+  firstName          String?
+  lastName           String?
+  profileImageUrl    String?
+  updatedAt          DateTime            @default(now())
+  aiDecisions        AiDecision[]
+  aiProfiles         AiProfile[]
+  correctionRequests CorrectionRequest[]
+  dataConsent        DataConsent?
+  decisionAuditLogs  DecisionAuditLog[]
+}
+
+model AiProfile {
+  id                 String              @id @default(uuid())
+  userId             String
+  label              String
+  confidence         Int
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @default(now())
+  user               User                @relation(fields: [userId], references: [id])
+  correctionRequests CorrectionRequest[]
+}
+
+model DataConsent {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  fraudDetection  Boolean  @default(true)
+  marketingOffers Boolean  @default(true)
+  financialAdvice Boolean  @default(true)
+  updatedAt       DateTime @default(now())
+  user            User     @relation(fields: [userId], references: [id])
+}
+
+model AiDecision {
+  id           String             @id @default(uuid())
+  userId       String
+  decisionType String
+  decisionText String
+  explanation  String
+  modelVersion String
+  timestamp    DateTime           @default(now())
+  user         User               @relation(fields: [userId], references: [id])
+  auditLogs    DecisionAuditLog[]
+}
+
+model DecisionAuditLog {
+  id               String     @id @default(uuid())
+  aiDecisionId     String
+  userId           String
+  modelVersion     String
+  featuresHash     String
+  rawXai           Json
+  customerAppealed Boolean    @default(false)
+  createdAt        DateTime   @default(now())
+  aiDecision       AiDecision @relation(fields: [aiDecisionId], references: [id])
+  user             User       @relation(fields: [userId], references: [id])
+}
+
+model CorrectionRequest {
+  id             String    @id @default(uuid())
+  userId         String
+  aiProfileId    String
+  incorrectLabel String
+  requestedLabel String?
+  status         String    @default("pending")
+  adminNotes     String?
+  createdAt      DateTime  @default(now())
+  processedAt    DateTime?
+  aiProfile      AiProfile @relation(fields: [aiProfileId], references: [id])
+  user           User      @relation(fields: [userId], references: [id])
+}
