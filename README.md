@@ -111,7 +111,6 @@ Thanks to these amazing people who have contributed to this project:
   <tr>
     <td align="center">
       <a href="https://github.com/thekhushalsingh">
-        <img src="https://avatars.githubusercontent.com/khushalsingh" width="100px;" alt="Khushal Singh"/>
         <br />
         <sub><b>Khushal Singh</b></sub>
       </a>
@@ -120,18 +119,16 @@ Thanks to these amazing people who have contributed to this project:
     </td>
     <td align="center">
       <a href="https://github.com/your-contributor">
-        <img src="https://avatars.githubusercontent.com/your-contributor" width="100px;" alt="Contributor Name"/>
         <br />
-        <sub><b>Contributor Name</b></sub>
+        <sub><b>Kumar Saurav</b></sub>
       </a>
       <br />
-      <sub>💻 Backend Developer</sub>
+      <sub>💻 Database Developer</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/another-contributor">
-        <img src="https://avatars.githubusercontent.com/another-contributor" width="100px;" alt="Another Contributor"/>
+      <a href="https://github.com/khushi4321gupta">
         <br />
-        <sub><b>Another Contributor</b></sub>
+        <sub><b>Khushi Gupta</b></sub>
       </a>
       <br />
       <sub>🎨 UI/UX Designer</sub>
@@ -140,9 +137,5 @@ Thanks to these amazing people who have contributed to this project:
 </table>
 
 
-# Project Contribution
-### ![Khushal Singh]()
-### ![Kumar Saurav]() 
-### ![Khushi Gupta](https://github.com/khushi4321gupta)
 
 
