@@ -101,5 +101,5 @@ npm run dev:all
 
 | Correction  | Audit Log | Fairness Monitor |
 |-----------------|-----------|------------------|
-| ![Correction Dashboard](./screenshot/customer-correction.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/fairness-monitor.png) |
+| ![Correction Dashboard](./screenshot/customer-correction.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/faireness-monitor.png) |
 
