@@ -118,7 +118,7 @@ Thanks to these amazing people who have contributed to this project:
       <sub>🚀 Project Lead & Full-Stack Developer</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/your-contributor">
+      <a href="https://github.com/notkumarsaurav">
         <br />
         <sub><b>Kumar Saurav</b></sub>
       </a>
