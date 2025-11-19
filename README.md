@@ -55,45 +55,45 @@ MyBankAI is a modern banking application that leverages artificial intelligence 
 1. **Clone the repository**
    ```bash
    
-# Install root dependencies
+### Install root dependencies
 npm install
 
-# Install client dependencies
+### Install client dependencies
 cd client && npm install && cd ..
 
-# Install server dependencies
+### Install server dependencies
 cd server && npm install && cd ..
 
-#Environment Setup
+##Environment Setup
 Create a .env file in the root directory:
 .env
-# Database
+### Database
 DATABASE_URL="postgresql://username:password@localhost:5432/mybankai"
 
-# JWT
+### JWT
 JWT_SECRET="your-super-secure-jwt-secret-key"
 
-# AI APIs
+### AI APIs
 OPENAI_API_KEY="your-openai-api-key"
 HUGGINGFACE_API_KEY="your-huggingface-api-key"
 
-# Node Environment
+### Node Environment
 NODE_ENV="development"
-## Create Database
-# Generate Prisma client
+### Create Database
+### Generate Prisma client
 npx prisma generate
 
-# Create database and run migrations
+### Create database and run migrations
 npx prisma db push
 
-# Development mode (runs both frontend and backend)
+### Development mode (runs both frontend and backend)
 npm run dev:all
 
 ## 📸 Screenshots
 
 | Landing Page | Login Page | Dashboard |
 |--------------|------------|-----------|
-| ![Landing Page](./screenshot/landing-page.png) | ![Login Page](./screenshot/log-in.png) | ![Dashboard](./screenshots/home-page.png) |
+| ![Landing Page](./screenshot/landing-page.png) | ![Login Page](./screenshot/log-in.png) | ![Dashboard](./screenshot/home-page.png) |
 
 | AI Profile | Data Consent | Recent Decisions |
 |------------|--------------|------------------|
@@ -101,5 +101,5 @@ npm run dev:all
 
 | Correction  | Audit Log | Fairness Monitor |
 |-----------------|-----------|------------------|
-| ![Correction Dashboard](./screenshot/customer.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/fairness-monitor.png) |
+| ![Correction Dashboard](./screenshot/customer-correction.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/fairness-monitor.png) |
 
