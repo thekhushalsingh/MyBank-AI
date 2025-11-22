@@ -39,7 +39,6 @@ MyBankAI is a modern banking application that leverages artificial intelligence 
 ### Database & AI
 - **PostgreSQL** - Primary database
 - **Prisma** - Database ORM and migrations
-- **OpenAI GPT-4** - Natural language processing
 - **Hugging Face** - Specialized ML models
 
 ## 📦 Installation
@@ -47,8 +46,7 @@ MyBankAI is a modern banking application that leverages artificial intelligence 
 ### Prerequisites
 - Node.js 18+
 - PostgreSQL 15+
-- OpenAI API key
-- Hugging Face API key (optional)
+
 
 ### Quick Start
 
