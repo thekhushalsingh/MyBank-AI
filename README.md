@@ -101,39 +101,3 @@ npm run dev:all
 |-----------------|-----------|------------------|
 | ![Correction Dashboard](./screenshot/customer-correction.png) | ![Audit Log](./screenshot/immutable-page.png) | ![Fairness Monitor](./screenshot/faireness-monitor.png) |
 
-## 👥 Contributors
-
-Thanks to these amazing people who have contributed to this project:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/thekhushalsingh">
-        <br />
-        <sub><b>Khushal Singh</b></sub>
-      </a>
-      <br />
-      <sub>🚀 Project Lead & Full-Stack Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/notkumarsaurav">
-        <br />
-        <sub><b>Kumar Saurav</b></sub>
-      </a>
-      <br />
-      <sub>💻 Database Developer</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/khushi4321gupta">
-        <br />
-        <sub><b>Khushi Gupta</b></sub>
-      </a>
-      <br />
-      <sub>🎨 UI/UX Designer</sub>
-    </td>
-  </tr>
-</table>
-
-
-
-
